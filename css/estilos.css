@@ -1,0 +1,301 @@
+﻿body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #b98bd1;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 0px 0;
+    text-align: right;
+}
+
+.nav {
+    background-color: #333;
+    padding: 30px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+    .nav ul {
+        list-style: circle;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: right;
+    }
+
+        .nav ul li {
+            margin: 0 30px;
+        }
+
+            .nav ul li a {
+                color: #fff;
+                text-decoration: none;
+                font-weight: bold;
+                padding: 5px 10px;
+                transition: color 0.3s ease, background-color 0.3s ease;
+                border-radius: 5px;
+            }
+
+                .nav ul li a:hover {
+                    color: #333;
+                    background-color: #fff;
+                    text-decoration: none;
+                    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+                    padding: 7px 12px;
+                    border-radius: 5px;
+                }
+
+ul {
+    top: 0;
+    width: 100%;
+}
+
+.banner {
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    color: #fff;
+}
+
+    main h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+
+    main p {
+        font-size: 1.2em;
+        line-height: 1.6;
+        font-style: italic;
+        max-width: 800px;
+        text-align: left;
+        margin: 0 20px;
+        color: #fff;
+    }
+
+
+/*pagina de acerca de*/
+body {
+    background-image: url(../images/elpartenonimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.9;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #320d4b;
+    text-shadow: 2px 2px #41115a;
+}
+
+.dios {
+    border: 2px solid #9370DB;
+    border-radius: 10px;
+    background-color: #E6E6FA;
+    margin: 30px;
+    padding: 30px;
+    box-shadow: 5px 5px 15px #D8BFD8;
+    transition: transform 0.4s;
+}
+
+    .dios:hover {
+        transform: scale(1.05);
+    }
+
+    .dios h2 {
+        color: #000000;
+        text-shadow: 1px 1px #9370DB;
+        text-decoration: solid;
+    }
+
+    .dios p {
+        color: #000000;
+        font-weight: 200;
+    }
+
+    .dios img {
+        display: block;
+        margin: 0 auto 10px;
+        border: 3px solid #9370DB; /* Morado lila */
+        border-radius: 10px;
+        width: 50%; /* Tamaño reducido */
+    }
+
+    .dios button {
+        display: block;
+        margin: 10px 0 10px auto; /* Alineado a la derecha */
+        padding: 10px 20px;
+        background-color: #320d4b; /* Morado lila */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1rem;
+        transition: background-color 0.3s;
+    }
+
+        .dios button:hover {
+            background-color: #7B68EE; /* Morado lila oscuro */
+        }
+
+/*Pagina de la tabla*/
+.table {
+    font-family: arial, sans-serif;
+    color: #ffffff;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #000000;
+}
+
+td, th {
+    border: 2px solid #dddddd; /* Bordes grises */
+    text-align: left;
+    padding: 12px;
+    background-color: #000000;
+}
+
+tr:nth-child(even) {
+    background-color: #333333; /* Alterna filas con un tono gris oscuro */
+}
+
+
+/*Pagina de la encuesta*/
+input[type=text], input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    /* css del Formularios*/
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+div {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+label {
+    font-family: 'Times New Roman';
+    font-size: 2rem;
+    color: #fff;
+}
+
+input[type="date"] {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+    input[type="date"]:focus {
+        border-color: #007bff;
+        outline: none;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    }
+
+
+
+
+/* Botón de Facebook */
+.boton-facebook {
+    background-image: url('https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg');
+    background-size: 30px 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Botón del carrito */
+.boton-merch {
+    background-image: url('https://i.pinimg.com/564x/bc/64/33/bc64339266c0e08bdad5986590f5390b.jpg');
+    background-size: 30px 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Botón de Twitter */
+.boton-twitter {
+    background-image: url('https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg');
+    background-size: 30px 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Botón de Instagram */
+.boton-instagram {
+    background-image: url('https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg');
+    background-size: 30px 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+    width: 100%;
+    bottom: 5;
+}
